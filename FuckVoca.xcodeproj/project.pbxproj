@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
+		42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61919ACB82700A334B3 /* CoreGraphics.framework */; };
+		42F8A61C19ACB82700A334B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61B19ACB82700A334B3 /* UIKit.framework */; };
+		42F8A62219ACB82700A334B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A62019ACB82700A334B3 /* InfoPlist.strings */; };
+		42F8A62419ACB82700A334B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A62319ACB82700A334B3 /* main.m */; };
+		42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A62719ACB82700A334B3 /* YWAppDelegate.m */; };
+		42F8A62A19ACB82700A334B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A62919ACB82700A334B3 /* Images.xcassets */; };
+		42F8A63119ACB82700A334B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A63019ACB82700A334B3 /* XCTest.framework */; };
+		42F8A63219ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
+		42F8A63319ACB82700A334B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61B19ACB82700A334B3 /* UIKit.framework */; };
+		42F8A63B19ACB82700A334B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A63919ACB82700A334B3 /* InfoPlist.strings */; };
+		42F8A63D19ACB82700A334B3 /* FuckVocaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F8A63419ACB82700A334B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F8A60C19ACB82700A334B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F8A61319ACB82700A334B3;
+			remoteInfo = FuckVoca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F8A61419ACB82700A334B3 /* FuckVoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckVoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F8A61719ACB82700A334B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42F8A61919ACB82700A334B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42F8A61B19ACB82700A334B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42F8A61F19ACB82700A334B3 /* FuckVoca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FuckVoca-Info.plist"; sourceTree = "<group>"; };
+		42F8A62119ACB82700A334B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42F8A62319ACB82700A334B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42F8A62519ACB82700A334B3 /* FuckVoca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FuckVoca-Prefix.pch"; sourceTree = "<group>"; };
+		42F8A62619ACB82700A334B3 /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
+		42F8A62719ACB82700A334B3 /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
+		42F8A62919ACB82700A334B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42F8A62F19ACB82700A334B3 /* FuckVocaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckVocaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F8A63019ACB82700A334B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		42F8A63819ACB82700A334B3 /* FuckVocaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FuckVocaTests-Info.plist"; sourceTree = "<group>"; };
+		42F8A63A19ACB82700A334B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckVocaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F8A61119ACB82700A334B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */,
+				42F8A61C19ACB82700A334B3 /* UIKit.framework in Frameworks */,
+				42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F8A62C19ACB82700A334B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A63119ACB82700A334B3 /* XCTest.framework in Frameworks */,
+				42F8A63319ACB82700A334B3 /* UIKit.framework in Frameworks */,
+				42F8A63219ACB82700A334B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F8A60B19ACB82700A334B3 = {
+			isa = PBXGroup;
+			children = (
+				42F8A61D19ACB82700A334B3 /* FuckVoca */,
+				42F8A63619ACB82700A334B3 /* FuckVocaTests */,
+				42F8A61619ACB82700A334B3 /* Frameworks */,
+				42F8A61519ACB82700A334B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F8A61519ACB82700A334B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A61419ACB82700A334B3 /* FuckVoca.app */,
+				42F8A62F19ACB82700A334B3 /* FuckVocaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F8A61619ACB82700A334B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A61719ACB82700A334B3 /* Foundation.framework */,
+				42F8A61919ACB82700A334B3 /* CoreGraphics.framework */,
+				42F8A61B19ACB82700A334B3 /* UIKit.framework */,
+				42F8A63019ACB82700A334B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F8A61D19ACB82700A334B3 /* FuckVoca */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A62619ACB82700A334B3 /* YWAppDelegate.h */,
+				42F8A62719ACB82700A334B3 /* YWAppDelegate.m */,
+				42F8A62919ACB82700A334B3 /* Images.xcassets */,
+				42F8A61E19ACB82700A334B3 /* Supporting Files */,
+			);
+			path = FuckVoca;
+			sourceTree = "<group>";
+		};
+		42F8A61E19ACB82700A334B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A61F19ACB82700A334B3 /* FuckVoca-Info.plist */,
+				42F8A62019ACB82700A334B3 /* InfoPlist.strings */,
+				42F8A62319ACB82700A334B3 /* main.m */,
+				42F8A62519ACB82700A334B3 /* FuckVoca-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42F8A63619ACB82700A334B3 /* FuckVocaTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */,
+				42F8A63719ACB82700A334B3 /* Supporting Files */,
+			);
+			path = FuckVocaTests;
+			sourceTree = "<group>";
+		};
+		42F8A63719ACB82700A334B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F8A63819ACB82700A334B3 /* FuckVocaTests-Info.plist */,
+				42F8A63919ACB82700A334B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F8A61319ACB82700A334B3 /* FuckVoca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F8A64019ACB82700A334B3 /* Build configuration list for PBXNativeTarget "FuckVoca" */;
+			buildPhases = (
+				42F8A61019ACB82700A334B3 /* Sources */,
+				42F8A61119ACB82700A334B3 /* Frameworks */,
+				42F8A61219ACB82700A334B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckVoca;
+			productName = FuckVoca;
+			productReference = 42F8A61419ACB82700A334B3 /* FuckVoca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F8A62E19ACB82700A334B3 /* FuckVocaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F8A64319ACB82700A334B3 /* Build configuration list for PBXNativeTarget "FuckVocaTests" */;
+			buildPhases = (
+				42F8A62B19ACB82700A334B3 /* Sources */,
+				42F8A62C19ACB82700A334B3 /* Frameworks */,
+				42F8A62D19ACB82700A334B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F8A63519ACB82700A334B3 /* PBXTargetDependency */,
+			);
+			name = FuckVocaTests;
+			productName = FuckVocaTests;
+			productReference = 42F8A62F19ACB82700A334B3 /* FuckVocaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F8A60C19ACB82700A334B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___YUWEIBA___";
+				TargetAttributes = {
+					42F8A62E19ACB82700A334B3 = {
+						TestTargetID = 42F8A61319ACB82700A334B3;
+					};
+				};
+			};
+			buildConfigurationList = 42F8A60F19ACB82700A334B3 /* Build configuration list for PBXProject "FuckVoca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42F8A60B19ACB82700A334B3;
+			productRefGroup = 42F8A61519ACB82700A334B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F8A61319ACB82700A334B3 /* FuckVoca */,
+				42F8A62E19ACB82700A334B3 /* FuckVocaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F8A61219ACB82700A334B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A62219ACB82700A334B3 /* InfoPlist.strings in Resources */,
+				42F8A62A19ACB82700A334B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F8A62D19ACB82700A334B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A63B19ACB82700A334B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F8A61019ACB82700A334B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
+				42F8A62419ACB82700A334B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F8A62B19ACB82700A334B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8A63D19ACB82700A334B3 /* FuckVocaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F8A63519ACB82700A334B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F8A61319ACB82700A334B3 /* FuckVoca */;
+			targetProxy = 42F8A63419ACB82700A334B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F8A62019ACB82700A334B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F8A62119ACB82700A334B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42F8A63919ACB82700A334B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F8A63A19ACB82700A334B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F8A63E19ACB82700A334B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F8A63F19ACB82700A334B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F8A64119ACB82700A334B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FuckVoca/FuckVoca-Prefix.pch";
+				INFOPLIST_FILE = "FuckVoca/FuckVoca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42F8A64219ACB82700A334B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FuckVoca/FuckVoca-Prefix.pch";
+				INFOPLIST_FILE = "FuckVoca/FuckVoca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42F8A64419ACB82700A334B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FuckVoca.app/FuckVoca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FuckVoca/FuckVoca-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FuckVocaTests/FuckVocaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		42F8A64519ACB82700A334B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FuckVoca.app/FuckVoca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FuckVoca/FuckVoca-Prefix.pch";
+				INFOPLIST_FILE = "FuckVocaTests/FuckVocaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F8A60F19ACB82700A334B3 /* Build configuration list for PBXProject "FuckVoca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F8A63E19ACB82700A334B3 /* Debug */,
+				42F8A63F19ACB82700A334B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F8A64019ACB82700A334B3 /* Build configuration list for PBXNativeTarget "FuckVoca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F8A64119ACB82700A334B3 /* Debug */,
+				42F8A64219ACB82700A334B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42F8A64319ACB82700A334B3 /* Build configuration list for PBXNativeTarget "FuckVocaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F8A64419ACB82700A334B3 /* Debug */,
+				42F8A64519ACB82700A334B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F8A60C19ACB82700A334B3 /* Project object */;
+}
