@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423F367019ADFDC50075667C /* YWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F366F19ADFDC50075667C /* YWMainViewController.m */; };
+		423F367319AE02350075667C /* YWListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F367219AE02350075667C /* YWListItem.m */; };
 		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
 		42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61919ACB82700A334B3 /* CoreGraphics.framework */; };
 		42F8A61C19ACB82700A334B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61B19ACB82700A334B3 /* UIKit.framework */; };
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		423F366E19ADFDC50075667C /* YWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMainViewController.h; sourceTree = "<group>"; };
+		423F366F19ADFDC50075667C /* YWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMainViewController.m; sourceTree = "<group>"; };
+		423F367119AE02350075667C /* YWListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWListItem.h; sourceTree = "<group>"; };
+		423F367219AE02350075667C /* YWListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWListItem.m; sourceTree = "<group>"; };
 		42F8A61419ACB82700A334B3 /* FuckVoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckVoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F8A61719ACB82700A334B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F8A61919ACB82700A334B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +118,10 @@
 				42F8A62619ACB82700A334B3 /* YWAppDelegate.h */,
 				42F8A62719ACB82700A334B3 /* YWAppDelegate.m */,
 				42F8A64619ACC18700A334B3 /* Main.storyboard */,
+				423F366E19ADFDC50075667C /* YWMainViewController.h */,
+				423F366F19ADFDC50075667C /* YWMainViewController.m */,
+				423F367119AE02350075667C /* YWListItem.h */,
+				423F367219AE02350075667C /* YWListItem.m */,
 				42F8A62919ACB82700A334B3 /* Images.xcassets */,
 				42F8A61E19ACB82700A334B3 /* Supporting Files */,
 			);
@@ -244,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423F367019ADFDC50075667C /* YWMainViewController.m in Sources */,
 				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
+				423F367319AE02350075667C /* YWListItem.m in Sources */,
 				42F8A62419ACB82700A334B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
