@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		423F366A19ADF5520075667C /* YWDBEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F366919ADF5520075667C /* YWDBEngine.m */; };
 		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
 		42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61919ACB82700A334B3 /* CoreGraphics.framework */; };
 		42F8A61C19ACB82700A334B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61B19ACB82700A334B3 /* UIKit.framework */; };
@@ -21,9 +20,6 @@
 		42F8A63B19ACB82700A334B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A63919ACB82700A334B3 /* InfoPlist.strings */; };
 		42F8A63D19ACB82700A334B3 /* FuckVocaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */; };
 		42F8A64719ACC18700A334B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A64619ACC18700A334B3 /* Main.storyboard */; };
-		42F8A64A19ACD20D00A334B3 /* YWAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A64919ACD20D00A334B3 /* YWAddToDoItemViewController.m */; };
-		42F8A64D19ACD32700A334B3 /* YWToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A64C19ACD32700A334B3 /* YWToDoListTableViewController.m */; };
-		42F8A65019ACD83A00A334B3 /* YWToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A64F19ACD83A00A334B3 /* YWToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		423F366819ADF5520075667C /* YWDBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDBEngine.h; sourceTree = "<group>"; };
-		423F366919ADF5520075667C /* YWDBEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDBEngine.m; sourceTree = "<group>"; };
 		42F8A61419ACB82700A334B3 /* FuckVoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckVoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F8A61719ACB82700A334B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F8A61919ACB82700A334B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,12 +50,6 @@
 		42F8A63A19ACB82700A334B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckVocaTests.m; sourceTree = "<group>"; };
 		42F8A64619ACC18700A334B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		42F8A64819ACD20D00A334B3 /* YWAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWAddToDoItemViewController.h; sourceTree = "<group>"; };
-		42F8A64919ACD20D00A334B3 /* YWAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWAddToDoItemViewController.m; sourceTree = "<group>"; };
-		42F8A64B19ACD32700A334B3 /* YWToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWToDoListTableViewController.h; sourceTree = "<group>"; };
-		42F8A64C19ACD32700A334B3 /* YWToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWToDoListTableViewController.m; sourceTree = "<group>"; };
-		42F8A64E19ACD83A00A334B3 /* YWToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWToDoItem.h; sourceTree = "<group>"; };
-		42F8A64F19ACD83A00A334B3 /* YWToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		423F366419ADF17A0075667C /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				42F8A64E19ACD83A00A334B3 /* YWToDoItem.h */,
-				42F8A64F19ACD83A00A334B3 /* YWToDoItem.m */,
-				423F366819ADF5520075667C /* YWDBEngine.h */,
-				423F366919ADF5520075667C /* YWDBEngine.m */,
-			);
-			name = Storage;
-			sourceTree = "<group>";
-		};
 		42F8A60B19ACB82700A334B3 = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +109,9 @@
 		42F8A61D19ACB82700A334B3 /* FuckVoca */ = {
 			isa = PBXGroup;
 			children = (
-				423F366419ADF17A0075667C /* Storage */,
 				42F8A62619ACB82700A334B3 /* YWAppDelegate.h */,
 				42F8A62719ACB82700A334B3 /* YWAppDelegate.m */,
 				42F8A64619ACC18700A334B3 /* Main.storyboard */,
-				42F8A64B19ACD32700A334B3 /* YWToDoListTableViewController.h */,
-				42F8A64C19ACD32700A334B3 /* YWToDoListTableViewController.m */,
-				42F8A64819ACD20D00A334B3 /* YWAddToDoItemViewController.h */,
-				42F8A64919ACD20D00A334B3 /* YWAddToDoItemViewController.m */,
 				42F8A62919ACB82700A334B3 /* Images.xcassets */,
 				42F8A61E19ACB82700A334B3 /* Supporting Files */,
 			);
@@ -273,11 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
-				42F8A64A19ACD20D00A334B3 /* YWAddToDoItemViewController.m in Sources */,
-				42F8A65019ACD83A00A334B3 /* YWToDoItem.m in Sources */,
-				423F366A19ADF5520075667C /* YWDBEngine.m in Sources */,
 				42F8A62419ACB82700A334B3 /* main.m in Sources */,
-				42F8A64D19ACD32700A334B3 /* YWToDoListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
