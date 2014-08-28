@@ -7,8 +7,11 @@
 //
 
 #import "MainViewController.h"
+#import "YWListItem.h"
 
 @interface MainViewController ()
+
+@property NSMutableArray *listItems;
 
 @end
 
@@ -17,23 +20,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.listItems = [[NSMutableArray alloc] init];
 }
 
 - (NSString *) segueIdentifierForIndexPathInLeftMenu:(NSIndexPath *)indexPath
 {
-    NSString *identifier;
-    switch (indexPath.row) {
-        case 0:
-            identifier = @"firstSegue";
-            break;
-            
-        case 1:
-            identifier = @"secondSegue";
-            break;
+    NSInteger row = indexPath.row;
+    if (row == 0) {
+        return @"firstSegue";
     }
-    
-    return identifier;
+    return @"firstSegue";
 }
 
 - (void) configureLeftMenuButton:(UIButton *)button
@@ -44,6 +40,11 @@
     button.frame = frame;
     
     [button setImage:[UIImage imageNamed:@"icon-menu"] forState:UIControlStateNormal];
+}
+
+- (CGFloat) leftMenuWidth
+{
+    return 150;
 }
 
 @end
