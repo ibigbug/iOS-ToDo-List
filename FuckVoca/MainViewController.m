@@ -25,10 +25,6 @@
 
 - (NSString *) segueIdentifierForIndexPathInLeftMenu:(NSIndexPath *)indexPath
 {
-    NSInteger row = indexPath.row;
-    if (row == 0) {
-        return @"firstSegue";
-    }
     return @"firstSegue";
 }
 
