@@ -44,7 +44,7 @@
 
 - (CGFloat) leftMenuWidth
 {
-    return 150;
+    return 180;
 }
 
 @end

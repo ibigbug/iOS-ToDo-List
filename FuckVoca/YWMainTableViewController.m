@@ -31,10 +31,10 @@
 - (void) loadInitDatas
 {
     YWListItem *item1 = [[YWListItem alloc] init];
-    item1.listName = @"List 1";
+    item1.listName = @"new List 1";
     item1.vocaCount = 50;
     YWListItem *item2 = [[YWListItem alloc] init];
-    item2.listName = @"List 2";
+    item2.listName = @"new List 2";
     item2.vocaCount = 50;
     [self.listItems addObject:item1];
     [self.listItems addObject:item2];
@@ -60,15 +60,17 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: CellIdentifier forIndexPath:indexPath];
     
     YWListItem *listItem = [self.listItems objectAtIndex:indexPath.row];
-    cell.textLabel.text = listItem.listName;
-    cell.detailTextLabel.text = [@(listItem.vocaCount) stringValue];
+    UILabel *listName = (UILabel *)[cell viewWithTag:100];
+    listName.text = listItem.listName;
+    UILabel *vocaCount = (UILabel *)[cell viewWithTag:101];
+    vocaCount.text = [@(listItem.vocaCount) stringValue];
     
     return cell;
 }
 
 - (void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    return;
 }
 
 @end
