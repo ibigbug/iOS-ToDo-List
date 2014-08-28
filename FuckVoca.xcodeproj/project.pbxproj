@@ -7,17 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		422484B619AF66E9005FF447 /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */; };
-		422484B719AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */; };
-		422484B819AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */; };
-		422484B919AF66E9005FF447 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */; };
-		422484BA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */; };
-		422484BB19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */; };
-		422484BC19AF66E9005FF447 /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */; };
-		422484BD19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */; };
-		422484BE19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */; };
-		422484BF19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */; };
-		423F367019ADFDC50075667C /* YWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F366F19ADFDC50075667C /* YWMainViewController.m */; };
+		422484C219AF6916005FF447 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484C119AF6916005FF447 /* MainViewController.m */; };
+		422484FB19AF7189005FF447 /* icon-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 422484F919AF7189005FF447 /* icon-menu.png */; };
+		422484FC19AF7189005FF447 /* icon-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422484FA19AF7189005FF447 /* icon-menu@2x.png */; };
 		423F367319AE02350075667C /* YWListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F367219AE02350075667C /* YWListItem.m */; };
 		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
 		42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61919ACB82700A334B3 /* CoreGraphics.framework */; };
@@ -47,27 +39,10 @@
 
 /* Begin PBXFileReference section */
 		1A74ADF40A1E42CBA64602BA /* Pods-FuckVoca.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckVoca.xcconfig"; path = "Pods/Pods-FuckVoca.xcconfig"; sourceTree = "<group>"; };
-		422484A119AF66E9005FF447 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuContentSegue.h; path = AMSlideMenu/AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
-		422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuContentSegue.m; path = AMSlideMenu/AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
-		422484A319AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftMenuSegue.h; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
-		422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftMenuSegue.m; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
-		422484A519AF66E9005FF447 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftTableViewController.h; path = AMSlideMenu/AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
-		422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftTableViewController.m; path = AMSlideMenu/AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
-		422484A719AF66E9005FF447 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuMainViewController.h; path = AMSlideMenu/AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
-		422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuMainViewController.m; path = AMSlideMenu/AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
-		422484A919AF66E9005FF447 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuProtocols.h; path = AMSlideMenu/AMSlideMenuProtocols.h; sourceTree = "<group>"; };
-		422484AA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightMenuSegue.h; path = AMSlideMenu/AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
-		422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightMenuSegue.m; path = AMSlideMenu/AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
-		422484AC19AF66E9005FF447 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightTableViewController.h; path = AMSlideMenu/AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
-		422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightTableViewController.m; path = AMSlideMenu/AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
-		422484AE19AF66E9005FF447 /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AMSlideMenu.h"; path = "AMSlideMenu/UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
-		422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AMSlideMenu.m"; path = "AMSlideMenu/UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
-		422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FuckVoca-AMSlideMenu.xcconfig"; sourceTree = "<group>"; };
-		422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FuckVoca-AMSlideMenu-Private.xcconfig"; sourceTree = "<group>"; };
-		422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuckVoca-AMSlideMenu-dummy.m"; sourceTree = "<group>"; };
-		422484B319AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-FuckVoca-AMSlideMenu-prefix.pch"; sourceTree = "<group>"; };
-		423F366E19ADFDC50075667C /* YWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMainViewController.h; sourceTree = "<group>"; };
-		423F366F19ADFDC50075667C /* YWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMainViewController.m; sourceTree = "<group>"; };
+		422484C019AF6916005FF447 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		422484C119AF6916005FF447 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		422484F919AF7189005FF447 /* icon-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu.png"; sourceTree = "<group>"; };
+		422484FA19AF7189005FF447 /* icon-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu@2x.png"; sourceTree = "<group>"; };
 		423F367119AE02350075667C /* YWListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWListItem.h; sourceTree = "<group>"; };
 		423F367219AE02350075667C /* YWListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWListItem.m; sourceTree = "<group>"; };
 		42F8A61419ACB82700A334B3 /* FuckVoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckVoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,42 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		422484B419AF66E9005FF447 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */,
-				422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */,
-				422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */,
-				422484B319AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-prefix.pch */,
-			);
-			name = "Support Files";
-			path = ..;
-			sourceTree = "<group>";
-		};
-		422484B519AF66E9005FF447 /* AMSlideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				422484A119AF66E9005FF447 /* AMSlideMenuContentSegue.h */,
-				422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */,
-				422484A319AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.h */,
-				422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */,
-				422484A519AF66E9005FF447 /* AMSlideMenuLeftTableViewController.h */,
-				422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */,
-				422484A719AF66E9005FF447 /* AMSlideMenuMainViewController.h */,
-				422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */,
-				422484A919AF66E9005FF447 /* AMSlideMenuProtocols.h */,
-				422484AA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.h */,
-				422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */,
-				422484AC19AF66E9005FF447 /* AMSlideMenuRightTableViewController.h */,
-				422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */,
-				422484AE19AF66E9005FF447 /* UIViewController+AMSlideMenu.h */,
-				422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */,
-				422484B419AF66E9005FF447 /* Support Files */,
-			);
-			name = AMSlideMenu;
-			path = ../Pods/AMSlideMenu;
-			sourceTree = "<group>";
-		};
 		42F8A60B19ACB82700A334B3 = {
 			isa = PBXGroup;
 			children = (
@@ -186,12 +125,10 @@
 		42F8A61D19ACB82700A334B3 /* FuckVoca */ = {
 			isa = PBXGroup;
 			children = (
-				422484B519AF66E9005FF447 /* AMSlideMenu */,
+				422484C019AF6916005FF447 /* MainViewController.h */,
+				422484C119AF6916005FF447 /* MainViewController.m */,
 				42F8A62619ACB82700A334B3 /* YWAppDelegate.h */,
 				42F8A62719ACB82700A334B3 /* YWAppDelegate.m */,
-				42F8A64619ACC18700A334B3 /* Main.storyboard */,
-				423F366E19ADFDC50075667C /* YWMainViewController.h */,
-				423F366F19ADFDC50075667C /* YWMainViewController.m */,
 				423F367119AE02350075667C /* YWListItem.h */,
 				423F367219AE02350075667C /* YWListItem.m */,
 				42F8A62919ACB82700A334B3 /* Images.xcassets */,
@@ -203,6 +140,9 @@
 		42F8A61E19ACB82700A334B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				422484F919AF7189005FF447 /* icon-menu.png */,
+				422484FA19AF7189005FF447 /* icon-menu@2x.png */,
+				42F8A64619ACC18700A334B3 /* Main.storyboard */,
 				42F8A61F19ACB82700A334B3 /* FuckVoca-Info.plist */,
 				42F8A62019ACB82700A334B3 /* InfoPlist.strings */,
 				42F8A62319ACB82700A334B3 /* main.m */,
@@ -309,9 +249,9 @@
 			files = (
 				42F8A64719ACC18700A334B3 /* Main.storyboard in Resources */,
 				42F8A62219ACB82700A334B3 /* InfoPlist.strings in Resources */,
-				422484BE19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig in Resources */,
+				422484FC19AF7189005FF447 /* icon-menu@2x.png in Resources */,
 				42F8A62A19ACB82700A334B3 /* Images.xcassets in Resources */,
-				422484BD19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig in Resources */,
+				422484FB19AF7189005FF447 /* icon-menu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,17 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422484BC19AF66E9005FF447 /* UIViewController+AMSlideMenu.m in Sources */,
-				422484BA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m in Sources */,
-				422484B619AF66E9005FF447 /* AMSlideMenuContentSegue.m in Sources */,
-				423F367019ADFDC50075667C /* YWMainViewController.m in Sources */,
-				422484BB19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m in Sources */,
-				422484B919AF66E9005FF447 /* AMSlideMenuMainViewController.m in Sources */,
 				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
 				423F367319AE02350075667C /* YWListItem.m in Sources */,
-				422484B819AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m in Sources */,
-				422484BF19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m in Sources */,
-				422484B719AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m in Sources */,
+				422484C219AF6916005FF447 /* MainViewController.m in Sources */,
 				42F8A62419ACB82700A334B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
