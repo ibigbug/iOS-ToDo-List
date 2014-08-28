@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422484B619AF66E9005FF447 /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */; };
+		422484B719AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */; };
+		422484B819AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */; };
+		422484B919AF66E9005FF447 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */; };
+		422484BA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */; };
+		422484BB19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */; };
+		422484BC19AF66E9005FF447 /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */; };
+		422484BD19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */; };
+		422484BE19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */; };
+		422484BF19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */; };
 		423F367019ADFDC50075667C /* YWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F366F19ADFDC50075667C /* YWMainViewController.m */; };
 		423F367319AE02350075667C /* YWListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F367219AE02350075667C /* YWListItem.m */; };
 		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
@@ -22,6 +32,7 @@
 		42F8A63B19ACB82700A334B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A63919ACB82700A334B3 /* InfoPlist.strings */; };
 		42F8A63D19ACB82700A334B3 /* FuckVocaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */; };
 		42F8A64719ACC18700A334B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F8A64619ACC18700A334B3 /* Main.storyboard */; };
+		EB95B871A29D403682C734D1 /* libPods-FuckVoca.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFF032AEAF6406BB3C28916 /* libPods-FuckVoca.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A74ADF40A1E42CBA64602BA /* Pods-FuckVoca.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuckVoca.xcconfig"; path = "Pods/Pods-FuckVoca.xcconfig"; sourceTree = "<group>"; };
+		422484A119AF66E9005FF447 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuContentSegue.h; path = AMSlideMenu/AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuContentSegue.m; path = AMSlideMenu/AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		422484A319AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftMenuSegue.h; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftMenuSegue.m; path = AMSlideMenu/AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		422484A519AF66E9005FF447 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuLeftTableViewController.h; path = AMSlideMenu/AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuLeftTableViewController.m; path = AMSlideMenu/AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		422484A719AF66E9005FF447 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuMainViewController.h; path = AMSlideMenu/AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuMainViewController.m; path = AMSlideMenu/AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		422484A919AF66E9005FF447 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuProtocols.h; path = AMSlideMenu/AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		422484AA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightMenuSegue.h; path = AMSlideMenu/AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightMenuSegue.m; path = AMSlideMenu/AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		422484AC19AF66E9005FF447 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSlideMenuRightTableViewController.h; path = AMSlideMenu/AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSlideMenuRightTableViewController.m; path = AMSlideMenu/AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		422484AE19AF66E9005FF447 /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AMSlideMenu.h"; path = "AMSlideMenu/UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AMSlideMenu.m"; path = "AMSlideMenu/UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FuckVoca-AMSlideMenu.xcconfig"; sourceTree = "<group>"; };
+		422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FuckVoca-AMSlideMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuckVoca-AMSlideMenu-dummy.m"; sourceTree = "<group>"; };
+		422484B319AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-FuckVoca-AMSlideMenu-prefix.pch"; sourceTree = "<group>"; };
 		423F366E19ADFDC50075667C /* YWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMainViewController.h; sourceTree = "<group>"; };
 		423F366F19ADFDC50075667C /* YWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMainViewController.m; sourceTree = "<group>"; };
 		423F367119AE02350075667C /* YWListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWListItem.h; sourceTree = "<group>"; };
@@ -56,6 +87,7 @@
 		42F8A63A19ACB82700A334B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42F8A63C19ACB82700A334B3 /* FuckVocaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckVocaTests.m; sourceTree = "<group>"; };
 		42F8A64619ACC18700A334B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8CFF032AEAF6406BB3C28916 /* libPods-FuckVoca.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FuckVoca.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +98,7 @@
 				42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */,
 				42F8A61C19ACB82700A334B3 /* UIKit.framework in Frameworks */,
 				42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */,
+				EB95B871A29D403682C734D1 /* libPods-FuckVoca.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +115,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422484B419AF66E9005FF447 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				422484B019AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig */,
+				422484B119AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig */,
+				422484B219AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m */,
+				422484B319AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		422484B519AF66E9005FF447 /* AMSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				422484A119AF66E9005FF447 /* AMSlideMenuContentSegue.h */,
+				422484A219AF66E9005FF447 /* AMSlideMenuContentSegue.m */,
+				422484A319AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.h */,
+				422484A419AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m */,
+				422484A519AF66E9005FF447 /* AMSlideMenuLeftTableViewController.h */,
+				422484A619AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m */,
+				422484A719AF66E9005FF447 /* AMSlideMenuMainViewController.h */,
+				422484A819AF66E9005FF447 /* AMSlideMenuMainViewController.m */,
+				422484A919AF66E9005FF447 /* AMSlideMenuProtocols.h */,
+				422484AA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.h */,
+				422484AB19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m */,
+				422484AC19AF66E9005FF447 /* AMSlideMenuRightTableViewController.h */,
+				422484AD19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m */,
+				422484AE19AF66E9005FF447 /* UIViewController+AMSlideMenu.h */,
+				422484AF19AF66E9005FF447 /* UIViewController+AMSlideMenu.m */,
+				422484B419AF66E9005FF447 /* Support Files */,
+			);
+			name = AMSlideMenu;
+			path = ../Pods/AMSlideMenu;
+			sourceTree = "<group>";
+		};
 		42F8A60B19ACB82700A334B3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +158,7 @@
 				42F8A63619ACB82700A334B3 /* FuckVocaTests */,
 				42F8A61619ACB82700A334B3 /* Frameworks */,
 				42F8A61519ACB82700A334B3 /* Products */,
+				1A74ADF40A1E42CBA64602BA /* Pods-FuckVoca.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +178,7 @@
 				42F8A61919ACB82700A334B3 /* CoreGraphics.framework */,
 				42F8A61B19ACB82700A334B3 /* UIKit.framework */,
 				42F8A63019ACB82700A334B3 /* XCTest.framework */,
+				8CFF032AEAF6406BB3C28916 /* libPods-FuckVoca.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +186,7 @@
 		42F8A61D19ACB82700A334B3 /* FuckVoca */ = {
 			isa = PBXGroup;
 			children = (
+				422484B519AF66E9005FF447 /* AMSlideMenu */,
 				42F8A62619ACB82700A334B3 /* YWAppDelegate.h */,
 				42F8A62719ACB82700A334B3 /* YWAppDelegate.m */,
 				42F8A64619ACC18700A334B3 /* Main.storyboard */,
@@ -164,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F8A64019ACB82700A334B3 /* Build configuration list for PBXNativeTarget "FuckVoca" */;
 			buildPhases = (
+				BEC30D0270D04DE39DBD3A4B /* Check Pods Manifest.lock */,
 				42F8A61019ACB82700A334B3 /* Sources */,
 				42F8A61119ACB82700A334B3 /* Frameworks */,
 				42F8A61219ACB82700A334B3 /* Resources */,
+				506AA1EE7BE440DCABA9CC82 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +309,9 @@
 			files = (
 				42F8A64719ACC18700A334B3 /* Main.storyboard in Resources */,
 				42F8A62219ACB82700A334B3 /* InfoPlist.strings in Resources */,
+				422484BE19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-Private.xcconfig in Resources */,
 				42F8A62A19ACB82700A334B3 /* Images.xcassets in Resources */,
+				422484BD19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +325,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		506AA1EE7BE440DCABA9CC82 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FuckVoca-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC30D0270D04DE39DBD3A4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42F8A61019ACB82700A334B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422484BC19AF66E9005FF447 /* UIViewController+AMSlideMenu.m in Sources */,
+				422484BA19AF66E9005FF447 /* AMSlideMenuRightMenuSegue.m in Sources */,
+				422484B619AF66E9005FF447 /* AMSlideMenuContentSegue.m in Sources */,
 				423F367019ADFDC50075667C /* YWMainViewController.m in Sources */,
+				422484BB19AF66E9005FF447 /* AMSlideMenuRightTableViewController.m in Sources */,
+				422484B919AF66E9005FF447 /* AMSlideMenuMainViewController.m in Sources */,
 				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
 				423F367319AE02350075667C /* YWListItem.m in Sources */,
+				422484B819AF66E9005FF447 /* AMSlideMenuLeftTableViewController.m in Sources */,
+				422484BF19AF66E9005FF447 /* Pods-FuckVoca-AMSlideMenu-dummy.m in Sources */,
+				422484B719AF66E9005FF447 /* AMSlideMenuLeftMenuSegue.m in Sources */,
 				42F8A62419ACB82700A334B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +490,7 @@
 		};
 		42F8A64119ACB82700A334B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A74ADF40A1E42CBA64602BA /* Pods-FuckVoca.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +505,7 @@
 		};
 		42F8A64219ACB82700A334B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A74ADF40A1E42CBA64602BA /* Pods-FuckVoca.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

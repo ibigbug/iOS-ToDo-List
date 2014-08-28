@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4A16CB6F-8677-4C79-8A68-84CB970DF0E2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FuckVoca</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BD8073C-FBCD-466C-85B7-C9DA43E4F6AC</key>
+		<string>https://github.com/aryaxt/iOS-Slide-Menu</string>
+		<key>72383A71-A98B-46D5-889C-B693CAF29191</key>
+		<string>ssh://github.com/ibigbug/iOS-ToDo-List.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FuckVoca.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BD8073C-FBCD-466C-85B7-C9DA43E4F6AC</key>
+		<string>../../FuckVoca/iOS-Slide-Menu</string>
+		<key>72383A71-A98B-46D5-889C-B693CAF29191</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ibigbug/iOS-ToDo-List.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72383A71-A98B-46D5-889C-B693CAF29191</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72383A71-A98B-46D5-889C-B693CAF29191</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FuckVoca</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BD8073C-FBCD-466C-85B7-C9DA43E4F6AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Slide-Menu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
