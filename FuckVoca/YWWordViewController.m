@@ -47,6 +47,7 @@
     if (!self.listItem)
         return;
     self.wordName.text = self.listItem.listName;
+    self.wordMean.text = [@(self.listItem.vocaCount) stringValue];
 }
 
 @end
