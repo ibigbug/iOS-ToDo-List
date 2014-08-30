@@ -18,11 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.listItems = [[NSMutableArray alloc] init];
 }
 
 - (NSString *) segueIdentifierForIndexPathInLeftMenu:(NSIndexPath *)indexPath
 {
+    NSLog(@"in mainvc");
     return @"firstSegue";
 }
 
