@@ -27,18 +27,15 @@
 }
 
 
-#pragma mark - Table view data source
-
 - (void) loadInitDatas
 {
-    YWListItem *item1 = [[YWListItem alloc] init];
-    item1.listName = @"abcdefghijklmnopqrstuvwxyz";
-    item1.vocaCount = 50;
-    YWListItem *item2 = [[YWListItem alloc] init];
-    item2.listName = @"new List 2new List 2";
-    item2.vocaCount = 50;
-    [self.listItems addObject:item1];
-    [self.listItems addObject:item2];
+    NSString *ROOT_URL = @"http://baidu.com";
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:ROOT_URL]];
+    NSURLConnection *conn = [NSURLConnection connectionWithRequest:req delegate:self];
+    
+    if (!conn) {
+        NSLog(@"Request failed");
+    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -77,5 +74,36 @@
     NSUInteger index = [[self.tableView indexPathForSelectedRow] row];
     vc.listItem = [self.listItems objectAtIndex:index];
 }
+
+
+#pragma mark NSURLConnection Delegate Methods
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    // A response has been received, this is where we initialize the instance var you created
+    // so that we can append data to it in the didReceiveData method
+    // Furthermore, this method is called each time there is a redirect so reinitializing it
+    // also serves to clear it
+    self.responseData = [[NSMutableData alloc] init];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    // Append the new data to the instance variable you declared
+    [self.responseData appendData:data];
+}
+
+- (NSCachedURLResponse *)connection:(NSURLConnection *)connection
+                  willCacheResponse:(NSCachedURLResponse*)cachedResponse {
+    // Return nil to indicate not necessary to store a cached response for this connection
+    return nil;
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+    NSLog(@"%@", self.responseData);
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    NSLog(@"%@", error);
+}
+
 
 @end

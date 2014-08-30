@@ -8,9 +8,10 @@
 
 #import "AMSlideMenuLeftTableViewController.h"
 
-@interface YWMainTableViewController : AMSlideMenuLeftTableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface YWMainTableViewController : AMSlideMenuLeftTableViewController <UITableViewDataSource, UITableViewDelegate, NSURLConnectionDelegate>
 
 @property NSMutableArray *listItems;
 @property NSInteger selectedIndex;
+@property NSMutableData *responseData;
 
 @end
