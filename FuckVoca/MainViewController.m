@@ -22,7 +22,6 @@
 
 - (NSString *) segueIdentifierForIndexPathInLeftMenu:(NSIndexPath *)indexPath
 {
-    NSLog(@"in mainvc");
     return @"firstSegue";
 }
 

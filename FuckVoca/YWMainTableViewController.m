@@ -8,6 +8,7 @@
 
 #import "YWMainTableViewController.h"
 #import "YWListItem.h"
+#import "YWWordViewController.h"
 
 @interface YWMainTableViewController ()
 
@@ -31,7 +32,7 @@
 - (void) loadInitDatas
 {
     YWListItem *item1 = [[YWListItem alloc] init];
-    item1.listName = @"new List 1";
+    item1.listName = @"new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1";
     item1.vocaCount = 50;
     YWListItem *item2 = [[YWListItem alloc] init];
     item2.listName = @"new List 2";
@@ -65,11 +66,16 @@
     
     return cell;
 }
-
-- (void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    self.selectedIndex = indexPath.row;
-    [self performSegueWithIdentifier:@"firstSegue" sender:self];
+    [self performSegueWithIdentifier:@"firstSegue" sender:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    YWWordViewController *vc = [[segue destinationViewController] viewControllers][0];
+    NSUInteger index = [[self.tableView indexPathForSelectedRow] row];
+    vc.listItem = [self.listItems objectAtIndex:index];
 }
 
 @end

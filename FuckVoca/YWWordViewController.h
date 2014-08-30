@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YWListItem.h"
 
 @interface YWWordViewController : UIViewController
 
-- (IBAction)unwindWordView:(UIStoryboardSegue *) segue;
+@property YWListItem *listItem;
 
 @end

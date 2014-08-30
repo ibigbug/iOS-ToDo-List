@@ -13,6 +13,7 @@
 @interface YWWordViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *wordName;
+@property (weak, nonatomic) IBOutlet UILabel *wordMean;
 
 @end
 
@@ -21,14 +22,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setViewContent];
+    [self setContentViewLayout];
 }
 
-- (IBAction)unwindWordView:(UIStoryboardSegue *)segue
+- (void) setContentViewLayout
 {
-    YWMainTableViewController *source = [segue sourceViewController];
-    YWListItem *listItem = [source.listItems objectAtIndex:source.selectedIndex];
-    self.wordName.text = listItem.listName;
+    [self setLabelAutozie:self.wordName];
+    [self setLabelAutozie:self.wordMean];
+}
+- (void) setLabelAutozie: (UILabel *) label
+{
+    [label setNumberOfLines:0];
+    NSString *s = label.text;
+    UIFont *font = label.font;
+    CGSize size = CGSizeMake(320,2000);
+    NSDictionary *tdic = [NSDictionary dictionaryWithObjectsAndKeys:font, NSFontAttributeName, nil];
+    CGSize actualSize = [s boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:tdic context:nil].size;
+    label.frame = CGRectMake(10, 20, actualSize.width, actualSize.height);
+}
+
+- (void) setViewContent
+{
+    if (!self.listItem)
+        return;
+    self.wordName.text = self.listItem.listName;
 }
 
 @end
