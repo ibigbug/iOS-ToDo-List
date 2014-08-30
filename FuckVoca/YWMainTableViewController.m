@@ -32,10 +32,10 @@
 - (void) loadInitDatas
 {
     YWListItem *item1 = [[YWListItem alloc] init];
-    item1.listName = @"new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1new List 1";
+    item1.listName = @"abcdefghijklmnopqrstuvwxyz";
     item1.vocaCount = 50;
     YWListItem *item2 = [[YWListItem alloc] init];
-    item2.listName = @"new List 2";
+    item2.listName = @"new List 2new List 2";
     item2.vocaCount = 50;
     [self.listItems addObject:item1];
     [self.listItems addObject:item2];

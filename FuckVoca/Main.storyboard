@@ -30,7 +30,7 @@
         <scene sceneID="927-VE-RsO">
             <objects>
                 <tableViewController id="jpv-xC-mIE" customClass="YWMainTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dfM-Kd-wAP">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="top" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dfM-Kd-wAP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,9 +42,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpw-dV-xeX">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpw-dV-xeX">
                                             <rect key="frame" x="20" y="11" width="84" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="84" id="K5d-fR-fQT"/>
+                                            </constraints>
                                             <attributedString key="attributedText">
                                                 <fragment content="ListName">
                                                     <attributes>
@@ -56,13 +59,24 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="( 50 )" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJq-8C-LGc">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( 50 )" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJq-8C-LGc">
                                             <rect key="frame" x="112" y="11" width="38" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="38" id="Itd-XU-SsU"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Lpw-dV-xeX" firstAttribute="baseline" secondItem="bJq-8C-LGc" secondAttribute="baseline" id="6Uh-8l-0QV"/>
+                                        <constraint firstItem="bJq-8C-LGc" firstAttribute="leading" secondItem="Lpw-dV-xeX" secondAttribute="trailing" constant="8" symbolic="YES" id="CcI-cW-c8g"/>
+                                        <constraint firstItem="Lpw-dV-xeX" firstAttribute="top" secondItem="yP0-cg-U4S" secondAttribute="top" constant="11" id="Mgw-sG-aGE"/>
+                                        <constraint firstItem="Lpw-dV-xeX" firstAttribute="leading" secondItem="yP0-cg-U4S" secondAttribute="leading" constant="20" symbolic="YES" id="fGL-KS-DIQ"/>
+                                        <constraint firstItem="bJq-8C-LGc" firstAttribute="centerY" secondItem="yP0-cg-U4S" secondAttribute="centerY" id="ieZ-P3-mYA"/>
+                                        <constraint firstItem="Lpw-dV-xeX" firstAttribute="top" secondItem="bJq-8C-LGc" secondAttribute="top" id="nyV-zN-MJi"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -72,6 +86,7 @@
                             <outlet property="delegate" destination="jpv-xC-mIE" id="Jtb-8h-a0l"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <connections>
                         <segue destination="PlV-fk-Qi5" kind="custom" identifier="firstSegue" customClass="AMSlideMenuContentSegue" id="PMg-Fj-NRm"/>
                     </connections>
