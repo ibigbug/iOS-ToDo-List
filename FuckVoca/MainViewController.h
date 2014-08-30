@@ -10,4 +10,7 @@
 
 @interface MainViewController : AMSlideMenuMainViewController
 
+@property NSMutableArray *listItems;
+@property NSInteger selectedIndex;
+
 @end

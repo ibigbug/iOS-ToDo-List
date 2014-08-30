@@ -11,6 +11,7 @@
 		422484FB19AF7189005FF447 /* icon-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 422484F919AF7189005FF447 /* icon-menu.png */; };
 		422484FC19AF7189005FF447 /* icon-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 422484FA19AF7189005FF447 /* icon-menu@2x.png */; };
 		422484FF19AF7F10005FF447 /* YWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422484FE19AF7F10005FF447 /* YWMainTableViewController.m */; };
+		42347EF619B1DAC1008F54C4 /* YWWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42347EF519B1DAC1008F54C4 /* YWWordViewController.m */; };
 		423F367319AE02350075667C /* YWListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 423F367219AE02350075667C /* YWListItem.m */; };
 		42F8A61819ACB82700A334B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61719ACB82700A334B3 /* Foundation.framework */; };
 		42F8A61A19ACB82700A334B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8A61919ACB82700A334B3 /* CoreGraphics.framework */; };
@@ -46,6 +47,8 @@
 		422484FA19AF7189005FF447 /* icon-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu@2x.png"; sourceTree = "<group>"; };
 		422484FD19AF7F10005FF447 /* YWMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMainTableViewController.h; sourceTree = "<group>"; };
 		422484FE19AF7F10005FF447 /* YWMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMainTableViewController.m; sourceTree = "<group>"; };
+		42347EF419B1DAC1008F54C4 /* YWWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWWordViewController.h; sourceTree = "<group>"; };
+		42347EF519B1DAC1008F54C4 /* YWWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWWordViewController.m; sourceTree = "<group>"; };
 		423F367119AE02350075667C /* YWListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWListItem.h; sourceTree = "<group>"; };
 		423F367219AE02350075667C /* YWListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWListItem.m; sourceTree = "<group>"; };
 		42F8A61419ACB82700A334B3 /* FuckVoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckVoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +139,8 @@
 				422484FE19AF7F10005FF447 /* YWMainTableViewController.m */,
 				422484C019AF6916005FF447 /* MainViewController.h */,
 				422484C119AF6916005FF447 /* MainViewController.m */,
+				42347EF419B1DAC1008F54C4 /* YWWordViewController.h */,
+				42347EF519B1DAC1008F54C4 /* YWWordViewController.m */,
 				42F8A62919ACB82700A334B3 /* Images.xcassets */,
 				42F8A61E19ACB82700A334B3 /* Supporting Files */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42347EF619B1DAC1008F54C4 /* YWWordViewController.m in Sources */,
 				42F8A62819ACB82700A334B3 /* YWAppDelegate.m in Sources */,
 				423F367319AE02350075667C /* YWListItem.m in Sources */,
 				422484FF19AF7F10005FF447 /* YWMainTableViewController.m in Sources */,

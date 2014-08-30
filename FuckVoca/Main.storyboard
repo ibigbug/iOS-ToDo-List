@@ -89,12 +89,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6oZ-6r-5Hz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="512" y="-1076"/>
+            <point key="canvasLocation" x="72" y="-1076"/>
         </scene>
-        <!--View Controller-->
+        <!--Word View Controller-->
         <scene sceneID="pIM-NI-5QL">
             <objects>
-                <viewController id="GgM-7b-Cci" sceneMemberID="viewController">
+                <viewController id="GgM-7b-Cci" customClass="YWWordViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EPb-6a-zbD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,10 +109,13 @@
                         <color key="backgroundColor" red="0.26066060230201021" green="0.80492872306747554" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="I7P-Ca-33m"/>
+                    <connections>
+                        <outlet property="wordName" destination="EcY-31-sK8" id="JCq-jY-U4e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ma-uf-N55" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1088" y="-1076"/>
+            <point key="canvasLocation" x="648" y="-1076"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WTz-71-cnC">

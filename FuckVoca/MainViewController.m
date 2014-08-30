@@ -11,8 +11,6 @@
 
 @interface MainViewController ()
 
-@property NSMutableArray *listItems;
-
 @end
 
 @implementation MainViewController
