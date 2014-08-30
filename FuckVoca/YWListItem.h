@@ -12,6 +12,6 @@
 
 @property int uid;
 @property NSString *listName;
-@property int vocaCount;
+@property NSInteger vocaCount;
 
 @end
