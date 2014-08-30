@@ -11,7 +11,7 @@
 
 @interface YWMainTableViewController ()
 
-@property NSMutableArray *listItems;
+
 
 @end
 
@@ -70,7 +70,8 @@
 
 - (void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return;
+    self.selectedIndex = indexPath.row;
+    [self performSegueWithIdentifier:@"firstSegue" sender:self];
 }
 
 @end

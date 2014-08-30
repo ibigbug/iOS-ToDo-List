@@ -10,4 +10,7 @@
 
 @interface YWMainTableViewController : AMSlideMenuLeftTableViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property NSMutableArray *listItems;
+@property NSInteger selectedIndex;
+
 @end
